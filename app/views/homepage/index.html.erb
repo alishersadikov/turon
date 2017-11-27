@@ -29,13 +29,13 @@
         <link href="assets/style.css" rel="stylesheet">
         <!--Responsive Framework-->
         <link href="assets/responsive.css" rel="stylesheet">
-        <script src="https://use.fontawesome.com/43bb51fc29.js"></script>
+        <%= javascript_include_tag "https://use.fontawesome.com/43bb51fc29.js" %>
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <%= javascript_include_tag "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" %>
+          <%= javascript_include_tag "https://oss.maxcdn.com/respond/1.4.2/respond.min.js" %>
         <![endif]-->
     </head>
 
@@ -956,12 +956,12 @@
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>-->
-        <script src=" assets/jquery-1.12.3.min.js"></script>
+        <%= javascript_include_tag "jquery-1.12.3.min.js" %>
 
         <!--Counter UP Waypoint-->
-        <script src=" assets/waypoints.min.js"></script>
+        <%= javascript_include_tag "waypoints.min.js" %>
         <!--Counter UP-->
-        <script src=" assets/jquery.counterup.min.js"></script>
+        <%= javascript_include_tag "jquery.counterup.min.js" %>
 
         <script>
             //for counter up
@@ -972,7 +972,7 @@
         </script>
 
         <!--Gmaps-->
-        <script src=" assets/gmaps.min.js"></script>
+        <%= javascript_include_tag "gmaps.min.js" %>
         <script type="text/javascript">
             var map;
             $(document).ready(function () {
@@ -1014,26 +1014,26 @@
             });
         </script>
         <!--Google Maps API-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjxvF9oTfcziZWw--3phPVx1ztAsyhXL4"></script>
+        <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyBjxvF9oTfcziZWw--3phPVx1ztAsyhXL4" %>
 
 
         <!--Isotope-->
-        <script src=" assets/isotope/min/scripts-min.js"></script>
-        <script src=" assets/isotope/cells-by-row.js"></script>
-        <script src=" assets/isotope/isotope.pkgd.min.js"></script>
-        <script src=" assets/isotope/packery-mode.pkgd.min.js"></script>
-        <script src=" assets/isotope/scripts.js"></script>
+        <%= javascript_include_tag "isotope/min/scripts-min.js" %>
+        <%= javascript_include_tag "isotope/cells-by-row.js" %>
+        <%= javascript_include_tag "isotope/isotope.pkgd.min.js" %>
+        <%= javascript_include_tag "isotope/packery-mode.pkgd.min.js" %>
+        <%= javascript_include_tag "isotope/scripts.js" %>
 
 
         <!--Back To Top-->
-        <script src=" assets/backtotop.js"></script>
+        <%= javascript_include_tag "backtotop.js" %>
 
 
         <!--JQuery Click to Scroll down with Menu-->
-        <script src=" assets/jquery.localScroll.min.js"></script>
-        <script src=" assets/jquery.scrollTo.min.js"></script>
+        <%= javascript_include_tag "jquery.localScroll.min.js" %>
+        <%= javascript_include_tag "jquery.scrollTo.min.js" %>
         <!--WOW With Animation-->
-        <script src=" assets/wow.min.js"></script>
+        <%= javascript_include_tag "wow.min.js" %>
         <!--WOW Activated-->
         <script>
             new WOW().init();
@@ -1041,9 +1041,9 @@
 
 
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="assets/bootstrap.min.js"></script>
+        <%= javascript_include_tag "bootstrap.min.js" %>
         <!-- Custom JavaScript-->
-        <script src="assets/main.js"></script>
+        <%= javascript_include_tag "main.js" %>
     </body>
 
 </html>

@@ -8,4 +8,18 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-# Rails.application.config.assets.precompile += %w( search.js )
+Rails.application.config.assets.precompile += %w( jquery-1.12.3.min.js 
+                                                  waypoints.min.js 
+                                                  jquery.counterup.min.js 
+                                                  gmaps.min.js 
+                                                  isotope/min/scripts-min.js 
+                                                  isotope/cells-by-row.js 
+                                                  isotope/isotope.pkgd.min.js 
+                                                  isotope/packery-mode.pkgd.min.js 
+                                                  isotope/scripts.js 
+                                                  backtotop.js 
+                                                  jquery.localScroll.min.js 
+                                                  jquery.scrollTo.min.js 
+                                                  wow.min.js 
+                                                  bootstrap.min.js 
+                                                  main.js )
