@@ -572,7 +572,7 @@ div#achivement {
     color: #fff;
 }*/
 section#counter {
-    background: url(../assets/img4.jpg) no-repeat scroll top center / cover;
+    background-image: image-url("img4.jpg") no-repeat scroll top center / cover;
     color: #fff;
 }
 .counter_img_overlay {
@@ -725,7 +725,7 @@ section#counter {
 
 #testimonial {
     color: #fff;
-    background: url(../assets/img5.jpg) no-repeat scroll top center / cover;
+    background-image: image-url("img5.jpg") no-repeat scroll top center / cover;
 }
 .testimonial_overlay {
     padding: 80px 0;
